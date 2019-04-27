@@ -1,0 +1,188 @@
+body {
+  /*Cambia el color del fondo a un degradado */
+  background: linear-gradient(0deg, #93d611 0%, white 95%);
+}
+
+header {
+  /* Aplica una fuente, color de letra, centrado, etc a los elementos dentro de la etiqueta Header */
+  font-family: "Century Gothic";
+  color: white;
+  text-align: center;
+  text-shadow: black;
+  -webkit-text-stroke: 2px navy;
+  font-size: 200%;
+}
+
+h1 {
+  display: inline;
+}
+
+header img {
+  height: 100px;
+}
+
+nav {
+  top: 10px;
+}
+
+.navbar {
+  font-family: "Century Gothic";
+  list-style: none;
+  display: block;
+  border: 2px solid white;
+  border-radius: 7px;
+  background: #d5fc88;
+  padding: 10px 20px;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.navbar li {
+  width: 25%; /*Establece que cada elemento de la lista ocupará un 25% de la pantalla*/
+  color: navy;
+  text-align: center;
+  text-decoration: none; /*Elimina el subrayado de los enlaces*/
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  display: block;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  /* Se cambia el estilo, tamaño y color de los enlaces cuando se pasa el mouse por encima*/
+  font-size: 24px;
+  font-style: italic;
+  background-color: #bdef5b;
+}
+
+
+.About,.animales {
+  /*Cambia el color de fondo, radio, margen, tamaño de letra, etc de la sección "Acerca De" y a cada artículo en la página*/
+  background: lightblue;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Gadugi";
+  color: white;
+}
+
+.animales p, ul, ol {
+  /*Hace que todo exceptuando los títulos se vea uniforme con el mismo color y justificado*/
+  color: blue;
+  text-align: justify;
+  padding: 10px;
+}
+
+.regresar {
+  /*Aplicado al botón en la esquina inferior derecha para regresar al inicio. El botón está estático*/
+  height: 7%;
+  border-radius: 50px;
+  background: #dff7c8;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+}
+
+table img {
+  /*Hace que la imagen cubra el 100% de la celda*/
+  width: 100%;
+}
+
+aside {
+  /*La etiqueta "aside" solo debe cubrir el 20% del tamaño total de la pantalla*/
+  width: 20%;
+}
+
+.menuanimales {
+  margin: 10px;
+  font-family: "Century Gothic";
+  list-style: none;
+  border: 2px solid white;
+  border-radius: 7px;
+  background: #d5fc88;
+  padding: 10px 10px;
+  overflow: auto;
+  font-size: 20px;
+  float: left;
+  position: sticky; /*Hace que la sección se mantenga en pantalla cuando pasen los 10px de top*/
+  top: 10px;
+}
+
+.menuanimales li {
+  color: navy;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menuanimales ul {
+  list-style: none;
+}
+
+.menuanimales a {
+  text-decoration: none;
+}
+
+.menuanimales a:hover {
+  font-size: 24px;
+  font-style: italic;
+  background-color: #bdef5b;
+}
+
+.todos {
+  /*Establece que la clase "todos" debe abarcar el 77% del tamaño total de la pantalla, debe mostrarse al lado del apartado "aside" */
+  width: 77%;
+  display: inline-block;
+  float: right;
+  background-color: white;
+}
+
+section h2, h3, h4 {
+  /*Se aplica a los títulos h2,h3 y h4 dentro de "section"*/
+  background-color: navy;
+  border-radius: 10px;
+}
+
+section h2 {
+  margin: 40px;
+}
+
+section h3 {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #000099;
+}
+
+section h4 {
+  margin-left: 190px;
+  margin-right: 190px;
+  background-color: #6666ff;
+}
+
+footer{
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
